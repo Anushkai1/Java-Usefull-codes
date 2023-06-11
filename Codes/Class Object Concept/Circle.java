@@ -29,6 +29,18 @@ public class Circle {
     }
     
     
-
+    //Calculaters
+    public Double getPerimeter(){
+        double a =  2*radius*Math.PI;     
+        System.out.println("The perimeter of circle1 is\t:\t"+ zero.format(a));
+        return a;
+    }
+   
+    
+   public double getArea(){
+       double a = Math.PI * radius * radius;
+       System.out.println("The area of circle1 is\t\t:\t"+zero.format(a) + "\n-----------------------------------------------");
+       return  a;
+   }
 
 }
