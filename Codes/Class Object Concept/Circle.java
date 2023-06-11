@@ -18,6 +18,17 @@ public class Circle {
         colour = s;
     }
     
-   
+    
+    //Getters
+    public double getRadious(){
+        return radius;
+    }
+    
+    public String getcolour(){
+        return colour;
+    }
+    
+    
+
 
 }
