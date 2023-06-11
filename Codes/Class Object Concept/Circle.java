@@ -8,6 +8,16 @@ public class Circle {
     private double radius;
     private String colour;
             
-
+            
+    //Setters
+    public void setRaduis(double r){
+        radius = r;
+    }
+    
+    public void setColour(String s){
+        colour = s;
+    }
+    
+   
 
 }
