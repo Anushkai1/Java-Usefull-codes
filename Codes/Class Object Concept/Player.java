@@ -13,5 +13,12 @@ public class Player {
         this.length = .5;
     }
     
+    //Parameterized consttuctor
+    Player(int id1, String title1, double length1){
+        this.id = id1;
+        this.title = title1;
+        this.length = length1;
+    }
+    
 
 }
