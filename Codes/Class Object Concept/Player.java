@@ -30,5 +30,9 @@ public class Player {
         this.length = length1;
     }
         
+    public void show(){
+        System.out.println(this.title + " showed");
+    }
+    
 
 }
