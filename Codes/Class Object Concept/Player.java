@@ -34,5 +34,9 @@ public class Player {
         System.out.println(this.title + " showed");
     }
     
+    public void close(){
+        System.out.println(this.title +" closed");
+    }
+    
 
 }
