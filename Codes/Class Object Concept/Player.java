@@ -38,5 +38,7 @@ public class Player {
         System.out.println(this.title +" closed");
     }
     
-
+    public void reprt(){
+        System.out.println(this.id+" "+this.title+" "+this.length);
+    }
 }
