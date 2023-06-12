@@ -25,5 +25,10 @@ public class Player {
         this.title = title1;
     }
     
+    Player(int id1, double length1){
+        this.id = id1;
+        this.length = length1;
+    }
+        
 
 }
