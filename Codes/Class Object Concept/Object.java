@@ -17,7 +17,4 @@ public class Object {
         p4.reprt();
                   
     }
-    
-
-    
 }
