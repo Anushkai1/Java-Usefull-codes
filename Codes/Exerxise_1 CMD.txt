@@ -1,0 +1,3 @@
+javac Exerxise_1.java; //to compile
+
+java Exerxise_1 // to run
