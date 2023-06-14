@@ -11,7 +11,13 @@ public class Exerxise_2 {
             total+=sc.nextInt();
         }
 
-
+        double avg =(double) total/5;
+        System.out.println("he average is\t:\t"+avg);
+        
+        a = (int) avg;
+        String s = String.valueOf(a);
+        int b = Integer.parseInt(s+s);
+        System.out.println("The value is\t:\t"+ (a + b / a));
     }
     
 }
